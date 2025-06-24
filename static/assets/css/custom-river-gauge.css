@@ -1,0 +1,265 @@
+/* River gauge tiles */
+.tile {
+    width: 100%;
+    min-width: 140px;
+    padding-top: 0.4%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease-in-out;
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .tile {
+        width: 100%;
+        padding-top: 1%;
+        min-width: 140px;
+    }
+}
+
+
+/* Individual heading styles for tiles */
+.tile h1 {
+    font-size: 1.6em !important;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.tile h2 {
+    font-size: 0.9em !important;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tile h3 {
+    font-size: 1em !important;
+    font-weight: 500;
+    text-align: center;
+}
+
+.tile h4 {
+    font-size: 0.8em !important;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/* General heading styles */
+h5 {
+    padding-top: 11px;
+    font-size: 1.5em;
+    font-weight: 600 !important;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    h5 {
+        font-size: large;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    h6 {
+        font-size: medium;
+        font-weight: 400;
+    }
+}
+
+/* Custom styles for hr element */
+hr.custom-hr {
+    height: 1px;
+    color: #3C3C3C;
+    padding-bottom: 0 !important;
+}
+
+
+/* Styles for warning tiles */
+.bg-purple {
+    background-color: #D50000;
+}
+
+.bg-red {
+    background-color: #FF3D00;
+}
+
+.bg-orange {
+    background-color: #FF9800;
+    color: #1E1E1E;
+}
+
+.bg-yellow {
+    background-color: #FFC107;
+    color: #1E1E1E;
+}
+
+.bg-none {
+    background-color: #80C1FF !important;
+    color: #1E1E1E;
+}
+
+
+/* Styles for chart container */
+.chart-container {
+    max-height: 350px;
+    padding: 1%;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+[data-bs-theme="dark"] .chart-container {
+    border: 1px solid #303030;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.073);
+}
+
+@media (max-width: 768px) {
+    .chart-container {
+        max-height: 200px;
+        overflow: hidden;
+    }
+}
+
+
+/* Custom styling for the legend in the popover */
+.color-box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.popover-body div {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.bi-info-circle-fill:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* margin-bottom: 5px; */
+}
+
+.legend-line {
+    width: 30px;
+    height: 4px;
+    /* border-radius: 2px; */
+}
+
+.legend-line-dashed {
+    width: 30px;
+    height: 0px;
+    border-top: 4px dashed #0080FF;
+}
+
+
+/* Custom styles for the table */
+#dataTable th {
+    font-size: 0.9em;
+    font-weight: 600;
+    -webkit-user-select: none; /* Disable selection in WebKit browsers */
+    -moz-user-select: none;    /* Disable selection in Firefox */
+    -ms-user-select: none;     /* Disable selection in IE/Edge */
+    user-select: none;         /* Standard property */
+}
+
+#dataTable td {
+    font-size: 1em;
+    font-weight: 400;
+    -webkit-user-select: none; /* Disable selection in WebKit browsers */
+    -moz-user-select: none;    /* Disable selection in Firefox */
+    -ms-user-select: none;     /* Disable selection in IE/Edge */
+    user-select: none;         /* Standard property */
+}
+
+#dataTable {
+    user-select: none;         /* Prevent text selection */
+    pointer-events: none;      /* Disable interaction with the table */
+}
+
+
+/* Styles for table */
+.table-container {
+    padding: 1%;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+[data-bs-theme="dark"] .table-container {
+    border: 1px solid #303030;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.073);
+}
+
+.highlight {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .table-container {
+        overflow: hidden;
+    }
+
+    .highlight {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+}
+
+
+
+/* Styles for table controls */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem; /* Adjust the gap as needed */
+}
+
+
+/* Styles for the loading wheel */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+  }

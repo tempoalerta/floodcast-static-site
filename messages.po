@@ -1,0 +1,741 @@
+# Portuguese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-06-05 12:35-0300\n"
+"PO-Revision-Date: 2025-01-30 16:51-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: webflood/__init__.py:64
+msgid "Message sent successfully, we will return shortly!"
+msgstr "Mensagem enviada com sucesso, retornaremos em breve!"
+
+#: webflood/__init__.py:67
+msgid "Error sending message, please write directly to contato@floodcast.com.br"
+msgstr "Erro ao enviar mensagem, por favor escreva diretamente para contato@floodcast.com.br"
+
+#: webflood/auth.py:43
+msgid "User {email} is already registered."
+msgstr "O usuário {email} já está registrado."
+
+#: webflood/auth.py:64
+msgid "User {email} has been registered."
+msgstr "O usuário {email} foi registrado."
+
+#: webflood/auth.py:92
+msgid ""
+"Email not registered. Please verify that you've entered the correct email"
+" address."
+msgstr "E-mail não registrado. Verifique se digitou o endereço de e-mail correto."
+
+#: webflood/auth.py:94
+msgid "Incorrect password. Please try again."
+msgstr "Senha incorreta. Tente novamente."
+
+#: webflood/auth.py:146
+msgid "It seems that the cloud server is down. Please try again later."
+msgstr ""
+"Parece que o servidor na nuvem está fora do ar. Tente novamente mais "
+"tarde."
+
+#: webflood/templates/base.html:53
+msgid "Home"
+msgstr "Início"
+
+#: webflood/templates/base.html:56
+msgid "Features"
+msgstr "Recursos"
+
+#: webflood/templates/base.html:59
+msgid "Accuracy"
+msgstr "Acurácia"
+
+#: webflood/templates/base.html:62
+msgid "Demo"
+msgstr "Demonstração"
+
+#: webflood/templates/base.html:65
+msgid "About us"
+msgstr "Quem somos"
+
+#: webflood/templates/base.html:68
+msgid "Contact"
+msgstr "Fale conosco"
+
+#: webflood/templates/base.html:74
+msgid "Log In"
+msgstr "Entrar"
+
+#: webflood/templates/index.html:40
+msgid "Accurate Flood Prediction with AI Technology"
+msgstr "Previsão precisa de enchentes com tecnologia IA"
+
+#: webflood/templates/index.html:41
+msgid ""
+"Floodcast is an AI-based SaaS platform that provides accurate 7-day flood"
+" forecasts. Designed for Emergency Management Teams, it empowers "
+"organizations with actionable insights to drive decisions and mitigate "
+"the impact of extreme events."
+msgstr ""
+"Floodcast é uma plataforma SaaS baseada em IA que fornece previsões "
+"acuradas de  enchentes para os próximos 7 dias. Desenvolvido para equipes"
+" de Gestão de Emergências, ela capacita as organizações na tomada de "
+"decisões mitigando o impacto de eventos extremos."
+
+#: webflood/templates/index.html:42 webflood/templates/index.html:53
+#: webflood/templates/index.html:64
+msgid "Request a Quote"
+msgstr "Solicitar Orçamento"
+
+#: webflood/templates/index.html:51
+msgid "Early Warnings to Protect Your Community"
+msgstr "Alertas antecipados para proteger sua comunidade"
+
+#: webflood/templates/index.html:52
+msgid ""
+"With cutting-edge AI technology, we identify patterns to accurately "
+"predict and monitor river levels, generating early warnings to risk "
+"areas. Our solution enables organizations to take preventive action and "
+"respond effectively to flood emergencies."
+msgstr ""
+"Utilizando IA de ponta, identificamos padrões para prever e monitorar com"
+" precisão os níveis dos rios gerando alertas prévios para áreas de risco."
+" Nossa solução permite que organizações antecipem e respondam eficazmente"
+" as emergências de enchentes."
+
+#: webflood/templates/index.html:62
+msgid "Real-Time Monitoring for Smarter Decisions"
+msgstr "Monitoramento em tempo real para decisões inteligentes"
+
+#: webflood/templates/index.html:63
+msgid ""
+"Floodcast is the ultimate solution for Emergency Management Teams needing"
+" instant access to real-time flood data across multiple locations. It "
+"enables faster, smarter decisions, ensuring optimal resource allocation "
+"and response planning."
+msgstr ""
+"A Floodcast é a solução definitiva para equipes de Gestão de Emergência "
+"que precisam de previsões de enchentes em tempo real para inúmeras "
+"localizações permitindo decisões mais rápidas e inteligentes garantindo "
+"um planejamento de resposta eficaz."
+
+#: webflood/templates/index.html:73
+msgid "Prepare for the Unexpected: Discover Our Solution!"
+msgstr "Prepare-se para o inesperado: descubra a nossa solução!"
+
+#: webflood/templates/index.html:74
+msgid ""
+"Floodcast operates 24/7 to deliver flood forecasts when they matter most."
+" Want to know how our technology can safeguard your business or "
+"community? Contact us and find out how we can make a difference."
+msgstr ""
+"A Floodcast opera 24 horas por dia, 7 dias por semana para fornecer "
+"previsões de enchentes quando elas são mais importantes. Quer saber como "
+"nossa tecnologia pode proteger seu negócio ou comunidade? Contacte-nos e "
+"descubra como podemos fazer a diferença."
+
+#: webflood/templates/index.html:75 webflood/templates/index.html:178
+msgid "Contact Us"
+msgstr "Fale Conosco"
+
+#: webflood/templates/index.html:99
+msgid "AI for Life"
+msgstr "IA para Salvar Vidas"
+
+#: webflood/templates/index.html:100
+msgid ""
+"We use AI algorithms to process large volumes of data in real-time, "
+"ensuring accurate and reliable flood predictions. We empower Emergency "
+"Teams to do what they do best: make informed decisions and save lives."
+msgstr ""
+"Usamos algoritmos de IA para processar grandes volumes de dados "
+"meteorológicos em tempo real, garantindo previsões de enchentes precisas "
+"e confiáveis. Empoderamos as equipes de emergência a fazer o que elas "
+"fazem de melhor: salvar vidas."
+
+#: webflood/templates/index.html:105
+msgid "Faster Response"
+msgstr "Alertas Rápidos"
+
+#: webflood/templates/index.html:106
+msgid ""
+"We transform complex data into actionable insights to prevent flood-"
+"related tragedies. With accurate forecasts and intuitive dashboards, we "
+"deliver top-tier technology for quicker, more effective emergency "
+"response."
+msgstr ""
+"Transformamos dados complexos em informações acionáveis para evitar "
+"tragédias relacionadas a inundações. Com previsões precisas e painéis "
+"intuitivos, fornecemos tecnologia de ponta para uma resposta mais rápida "
+"e eficaz a emergências."
+
+#: webflood/templates/index.html:111
+msgid "Safe Communities"
+msgstr "Comunidades Seguras"
+
+#: webflood/templates/index.html:112
+msgid ""
+"We believe technology is key to climate resilience. Our cutting-edge "
+"solutions equip businesses and government agencies with advanced flood "
+"management tools to help safeguard their communities."
+msgstr ""
+"Acreditamos que a tecnologia é vital para a resiliência climática. Nossas"
+" soluções equipam empresas e agências governamentais com ferramentas "
+"avançadas de gestão de enchentes para ajudar suas comunidades."
+
+#: webflood/templates/index.html:125
+msgid "Learn More"
+msgstr "Saiba Mais"
+
+#: webflood/templates/index.html:132
+msgid ""
+"At Floodcast, we view weather as a giant, complex puzzle in which each "
+"piece, such as rainfall, temperature, humidity, and pressure, can trigger"
+" unexpected chain reactions.\n"
+"                To solve this challenge, we’ve developed advanced AI "
+"models that learn from historical data, identify how rivers respond to "
+"different weather conditions, and forecast what’s ahead with precision."
+msgstr ""
+"Na Floodcast, enxergamos a previsão do tempo como um grande e complexo "
+"quebra-cabeça, no qual cada peça — como chuva, temperatura, umidade e "
+"pressão — pode desencadear reações em cadeia inesperadas. Para enfrentar "
+"esse desafio, desenvolvemos modelos avançados de IA que aprendem com "
+"dados históricos, identificam como os rios reagem a diferentes condições "
+"climáticas e preveem, com precisão, o que está por vir."
+
+#: webflood/templates/index.html:135
+msgid ""
+"Floodcast is a powerful SaaS platform built for Emergency Management "
+"Teams. It provides the tools they need to make informed decisions. Our "
+"intuitive dashboards allow real-time\n"
+"                monitoring of multiple flood-prone areas, whether in "
+"small communities or vast territories. By leveraging reliable real-time "
+"and historical river sensor data, we tailor AI models to your specific\n"
+"                region, delivering hourly river level forecasts for the "
+"next 7 days, complete with early warnings for predefined flood stages."
+msgstr ""
+"A Floodcast é uma poderosa plataforma SaaS criada para equipes de Gestão "
+"de Emergências com ferramentas necessárias para a tomada de decisões "
+"informadas. Nossos dashboards visuais e intuitivos permitem o "
+"monitoramento em tempo real de diversas áreas suscetíveis a enchentes, "
+"seja em pequenas comunidades ou em grandes territórios. Ao utilizar dados"
+" confiáveis de sensores fluviais — tanto em tempo real quanto históricos "
+"— nós desenvolvemos modelos de IA para cada região, gerando previsões "
+"horárias do nível dos rios para os próximos 7 dias, com alertas "
+"antecipados para os estágios de inundação previamente definidos."
+
+#: webflood/templates/index.html:139
+msgid ""
+"With Floodcast, it’s like having an entire team of Flood Experts working "
+"around the clock, analyzing data, and predicting the future so you can "
+"act decisively and prevent flood tragedies."
+msgstr ""
+"Com a Floodcast, é como ter uma equipe inteira de especialistas em "
+"enchentes trabalhando 24 horas por dia, analisando dados e prevendo o "
+"futuro, para que você possa agir com rapidez na prevenção de tragédias."
+
+#: webflood/templates/index.html:142
+msgid "Our Impact"
+msgstr "Nosso Impacto"
+
+#: webflood/templates/index.html:143
+msgid ""
+"Floodcast empowers decision-makers—governments, businesses, and "
+"communities—with actionable insights to prepare for and respond to "
+"floods. By providing early and reliable warnings,\n"
+"                we help Emergency Management Teams make informed "
+"decisions, consequently saving lives, protecting property, and reducing "
+"the economic impact of floods."
+msgstr ""
+"A Floodcast capacita tomadores de decisão — governos, empresas e "
+"comunidades — com insights acionáveis para se preparar e responder às "
+"enchentes. Ao fornecer alertas precoces e confiáveis, ajudamos Equipes de"
+" Gestão de Emergência a tomar decisões informadas, salvando vidas, "
+"protegendo patrimônios e reduzindo o impacto econômico das inundações."
+
+#: webflood/templates/index.html:146
+msgid ""
+"In a world of increasingly unpredictable weather, Floodcast’s solution "
+"offers a smarter, safer way to navigate one of nature’s greatest "
+"challenges.\n"
+"                Together, we can build a safer and more resilient future."
+msgstr ""
+"Em um mundo onde o clima se torna cada vez mais imprevisível, a solução "
+"da Floodcast oferece uma maneira mais inteligente e segura de enfrentar "
+"um dos maiores desafios da natureza. Juntos, podemos construir um futuro "
+"mais seguro e resiliente."
+
+#: webflood/templates/index.html:162
+msgid "Reliable Predictions: "
+msgstr "Previsões confiáveis: "
+
+#: webflood/templates/index.html:162
+msgid "Accuracy Measured in Centimeters."
+msgstr "precisão medida em centímetros."
+
+#: webflood/templates/index.html:163
+msgid ""
+"Floodcast provides accurate, actionable insights. With a margin of error "
+"in 24-hour forecasts below 2&#37 of the historical river level peak and "
+"only 10&#37 of deviation over 7 days, the platform empowers confident, "
+"informed decisions every step of the way."
+msgstr ""
+"A Floodcast oferece insights precisos e acionáveis. Com uma margem de "
+"erro nas previsões de 24 horas abaixo de 2&#37 do pico histórico do nível"
+" do rio, e apenas 10&#37 de desvio ao longo de 7 dias a plataforma "
+"permite decisões informadas e seguras em cada etapa do processo."
+
+#: webflood/templates/index.html:176
+msgid "Real-Time Dashboard: "
+msgstr "Dashboard em Tempo Real: "
+
+#: webflood/templates/index.html:176
+msgid "See Floodcast in Action."
+msgstr "veja a Floodcast em ação."
+
+#: webflood/templates/index.html:177
+msgid ""
+"Experience Floodcast’s advanced forecasting tools firsthand. Request a "
+"real-time demo today and discover how we turn flood prediction into "
+"actionable insights that empower decision-making."
+msgstr ""
+"Experimente as avançadas ferramentas de previsão da Floodcast. Solicite "
+"uma demonstração e descubra como transformamos a previsão de enchentes em"
+" insights acionáveis que fortalecem a tomada de decisão."
+
+#: webflood/templates/index.html:195
+msgid "Pioneering the Future of Flood Management"
+msgstr "Liderando o futuro da Gestão de Enchentes"
+
+#: webflood/templates/index.html:197
+msgid "Discover who we are and our mission to transform flood forecasting."
+msgstr ""
+"Descubra quem somos e a nossa missão em transformar a previsão de "
+"enchentes."
+
+#: webflood/templates/index.html:201
+msgid "About Us"
+msgstr "Quem Somos"
+
+#: webflood/templates/index.html:208
+msgid "Who We Are"
+msgstr "Quem Somos?"
+
+#: webflood/templates/index.html:210
+msgid ""
+"We are a Brazilian team of hydrologists, meteorologists, software "
+"engineers, and data scientists united by a shared purpose: to help save "
+"lives and protect communities. Our journey began as a Data Science "
+"capstone project, where we identified a critical gap in accessible and "
+"reliable flood information."
+msgstr ""
+"Somos uma equipe brasileira de hidrologistas, meteorologistas, "
+"engenheiros de software e cientistas de dados, unidos por um propósito "
+"comum: ajudar a salvar vidas e proteger comunidades. Nossa jornada "
+"começou em um projeto em Ciência de Dados, quando identificamos uma "
+"lacuna crítica na oferta de informações acessíveis e confiáveis sobre "
+"enchentes."
+
+#: webflood/templates/index.html:211
+msgid ""
+"Our mission is to equip communities, businesses, and governments with the"
+" insights they need to anticipate and respond to floods. By combining our"
+" diverse expertise with the power of AI, we deliver precise, real-time "
+"forecasts that enable early action and risk mitigation."
+msgstr ""
+"Nossa missão é fornecer a comunidades, empresas e governos os insights "
+"necessários para antecipar e responder a eventos de inundação. Combinando"
+" nossa expertise multidisciplinar com o poder da IA, oferecemos previsões"
+" precisas e em tempo real, que possibilitam ações antecipadas e mitigação"
+" de riscos."
+
+#: webflood/templates/index.html:212
+msgid ""
+"At Floodcast, we’re committed to creating a future where no one is caught"
+" off guard by the forces of nature. Our state-of-the-art platform "
+"harnesses the power of advanced AI to deliver unmatched accuracy in flood"
+" forecasting, empowering communities to make informed decisions."
+msgstr ""
+"Na Floodcast, temos o compromisso de construir um futuro em que ninguém "
+"seja pego de surpresa pelas forças da natureza. Nossa plataforma de ponta"
+" utiliza o poder da inteligência artificial avançada para oferecer uma "
+"acuidade incomparável na previsão de enchentes, capacitando comunidades a"
+" tomarem decisões informadas."
+
+#: webflood/templates/index.html:226
+msgid "Contact Us:"
+msgstr "Fale Conosco: "
+
+#: webflood/templates/index.html:229
+msgid ""
+"Do you have any questions, or would you like to request a quote? Contact "
+"us below or by "
+msgstr ""
+"Você tem alguma dúvida, ou gostaria de solicitar uma cotação? Entre em "
+"contato conosco abaixo ou por "
+
+#: webflood/templates/index.html:229
+msgid " and we will get back to you shortly."
+msgstr " e nós entraremos em contato com você em breve."
+
+#: webflood/templates/index.html:235
+msgid "Name*"
+msgstr "Nome*"
+
+#: webflood/templates/index.html:236
+msgid "Your Name"
+msgstr "Seu nome"
+
+#: webflood/templates/index.html:239
+msgid "Surname"
+msgstr "Sobrenome"
+
+#: webflood/templates/index.html:240
+msgid "Your Surname"
+msgstr "Seu sobrenome"
+
+#: webflood/templates/index.html:245
+msgid "Email address*"
+msgstr "Email address*"
+
+#: webflood/templates/index.html:246
+msgid "name@example.com"
+msgstr "nome@exemplo.com"
+
+#: webflood/templates/index.html:249
+msgid "Message*"
+msgstr "Mensagem*"
+
+#: webflood/templates/index.html:250
+msgid "Your Message"
+msgstr "Sua mensagem"
+
+#: webflood/templates/index.html:253
+msgid "Send Message"
+msgstr "Enviar Mensagem"
+
+#: webflood/templates/index.html:264
+msgid "The Future of Flood Forecasting Starts Here!"
+msgstr "O futuro da previsão de enchentes começa aqui!"
+
+#: webflood/templates/index.html:266
+msgid ""
+"<b>SEBRAE</b> supports our mission to advance flood forecasting "
+"technology, helping us expand and generate impact."
+msgstr ""
+"O <b>SEBRAE</b> apoia nossa missão de avançar a tecnologia de previsão de"
+" enchentes, ajudando-nos a expandir e gerar impacto."
+
+#: webflood/templates/auth/login.html:30
+msgid "Email"
+msgstr "E-mail"
+
+#: webflood/templates/auth/login.html:39
+msgid "Password"
+msgstr "Senha"
+
+#: webflood/templates/auth/login.html:49
+msgid "Remember me"
+msgstr "Lembrar-me"
+
+#: webflood/templates/auth/login.html:54
+msgid "Log in"
+msgstr "Entrar"
+
+#: webflood/templates/dashboard/access-denied.html:11
+#: webflood/templates/dashboard/access-denied.html:30
+msgid "Access Denied"
+msgstr "Acesso negado"
+
+#: webflood/templates/dashboard/access-denied.html:31
+msgid "You do not have permission to view this page."
+msgstr "Você não tem permissão para visualizar esta página."
+
+#: webflood/templates/dashboard/access-denied.html:32
+msgid "Return to Dashboard"
+msgstr "Retornar à Sala de Controle"
+
+#: webflood/templates/dashboard/base.html:89
+#: webflood/templates/dashboard/index.html:3
+#: webflood/templates/dashboard/index.html:15
+msgid "Control Room"
+msgstr "Sala de Controle"
+
+#: webflood/templates/dashboard/base.html:106
+#: webflood/templates/dashboard/base.html:111
+msgid "River Gauges"
+msgstr "Estações Fluviométricas"
+
+#: webflood/templates/dashboard/base.html:121
+msgid "Search station..."
+msgstr "Buscar estação..."
+
+#: webflood/templates/dashboard/base.html:152
+msgid "Weather Charts"
+msgstr "Gráficos Meteorológicos"
+
+#: webflood/templates/dashboard/base.html:163
+msgid "Precipitation 6-hour periods"
+msgstr "Precipitação"
+
+#: webflood/templates/dashboard/base.html:170
+msgid "Total accumulated precipitation"
+msgstr "Precipitação total acumulada"
+
+#: webflood/templates/dashboard/base.html:182
+msgid "Notifications"
+msgstr "Notificações"
+
+#: webflood/templates/dashboard/base.html:190
+msgid "API"
+msgstr "API"
+
+#: webflood/templates/dashboard/base.html:203
+msgid "Account settings"
+msgstr "Configurações da conta"
+
+#: webflood/templates/dashboard/base.html:211
+msgid "Billing"
+msgstr "Faturamento"
+
+#: webflood/templates/dashboard/base.html:220
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: webflood/templates/dashboard/base.html:233
+msgid "Dark mode"
+msgstr "Modo escuro"
+
+#: webflood/templates/dashboard/base.html:241
+msgid "Log out"
+msgstr "Sair"
+
+#: webflood/templates/dashboard/coming-soon.html:3
+msgid "Coming Soon"
+msgstr "Em breve"
+
+#: webflood/templates/dashboard/coming-soon.html:9
+msgid "Coming soon!"
+msgstr "Em breve!"
+
+#: webflood/templates/dashboard/coming-soon.html:10
+msgid "An amazing feature is under construction right now..."
+msgstr "Um recurso incrível está em construção agora..."
+
+#: webflood/templates/dashboard/error.html:3
+msgid "Error"
+msgstr "Erro"
+
+#: webflood/templates/dashboard/error.html:9
+msgid ""
+"An unexpected error has occurred. Please try again later or contact "
+"support."
+msgstr ""
+"Ocorreu um erro inesperado. Tente novamente mais tarde ou entre em "
+"contato com o suporte."
+
+#: webflood/templates/dashboard/error.html:13
+msgid "Contact Support"
+msgstr "Entre em contato"
+
+#: webflood/templates/dashboard/index.html:44
+msgid "No other river gauge to display"
+msgstr "Nenhuma outra estação para exibir"
+
+#: webflood/templates/dashboard/index.html:55
+msgid "Updating..."
+msgstr "Atualizando..."
+
+#: webflood/templates/dashboard/index.html:85
+msgid "No alerts for the next seven days"
+msgstr "Nenhum alerta nos próximos sete dias"
+
+#: webflood/templates/dashboard/index.html:86
+#: webflood/templates/dashboard/river-gauge.html:209
+msgid "Watch"
+msgstr "Atenção"
+
+#: webflood/templates/dashboard/index.html:87
+#: webflood/templates/dashboard/river-gauge.html:210
+msgid "Warning"
+msgstr "Alerta"
+
+#: webflood/templates/dashboard/index.html:88
+#: webflood/templates/dashboard/river-gauge.html:211
+msgid "Severe Warning"
+msgstr "Alerta severo"
+
+#: webflood/templates/dashboard/index.html:89
+#: webflood/templates/dashboard/river-gauge.html:212
+msgid "Emergency"
+msgstr "Emergência"
+
+#: webflood/templates/dashboard/index.html:90
+msgid "chance of "
+msgstr "chance de "
+
+#: webflood/templates/dashboard/index.html:91
+msgid "around "
+msgstr "por volta de "
+
+#: webflood/templates/dashboard/index.html:92
+msgid "Updated just now"
+msgstr "Atualizado agora"
+
+#: webflood/templates/dashboard/index.html:93
+msgid "Last update 1 min. ago"
+msgstr "Última atualização há 1 min."
+
+#: webflood/templates/dashboard/index.html:94
+msgid "Last update"
+msgstr "Última atualização há"
+
+#: webflood/templates/dashboard/index.html:95
+msgid "min. ago"
+msgstr "min."
+
+#: webflood/templates/dashboard/river-gauge.html:3
+msgid "River gauge"
+msgstr "Estações Fluviométricas"
+
+#: webflood/templates/dashboard/river-gauge.html:25
+msgid "Daily forecast: peak river level and total precipitation"
+msgstr "Previsões diárias: nível máximo e precipitação total"
+
+#: webflood/templates/dashboard/river-gauge.html:38
+msgid "Today"
+msgstr "Hoje"
+
+#: webflood/templates/dashboard/river-gauge.html:44
+#: webflood/templates/dashboard/river-gauge.html:208
+msgid "No alerts"
+msgstr "Nenhum alerta"
+
+#: webflood/templates/dashboard/river-gauge.html:77
+msgid "Hourly forecast: real-time level chart"
+msgstr "Previsões horárias: gráfico em tempo real"
+
+#: webflood/templates/dashboard/river-gauge.html:90
+msgid "Emergency Level"
+msgstr "Nível de emergência"
+
+#: webflood/templates/dashboard/river-gauge.html:94
+msgid "Severe Warning Level"
+msgstr "Nível de alerta severo"
+
+#: webflood/templates/dashboard/river-gauge.html:98
+msgid "Warning Level"
+msgstr "Nível de alerta"
+
+#: webflood/templates/dashboard/river-gauge.html:102
+msgid "Watch Level"
+msgstr "Nível de atenção"
+
+#: webflood/templates/dashboard/river-gauge.html:106
+msgid "Past Measured Level"
+msgstr "Nível medido"
+
+#: webflood/templates/dashboard/river-gauge.html:110
+msgid "Forecasted Level"
+msgstr "Nível previsto"
+
+#: webflood/templates/dashboard/river-gauge.html:114
+msgid "Margin of error"
+msgstr "Margem de erro"
+
+#: webflood/templates/dashboard/river-gauge.html:121
+msgid "Past 7 days + forecast"
+msgstr "Últimos 7 dias + previsão"
+
+#: webflood/templates/dashboard/river-gauge.html:122
+msgid "Past month + forecast"
+msgstr "Último mês + previsão"
+
+#: webflood/templates/dashboard/river-gauge.html:123
+msgid "Past quarter + forecast"
+msgstr "Último trimestre + previsão"
+
+#: webflood/templates/dashboard/river-gauge.html:124
+msgid "Past year + forecast"
+msgstr "Último ano + previsão"
+
+#: webflood/templates/dashboard/river-gauge.html:125
+msgid "All past data + forecast"
+msgstr "Todo o histórico + previsão"
+
+#: webflood/templates/dashboard/river-gauge.html:139
+msgid "Hourly forecast: table view"
+msgstr "Previsões horárias: tabela"
+
+#: webflood/templates/dashboard/river-gauge.html:147
+msgid "Date"
+msgstr "Data"
+
+#: webflood/templates/dashboard/river-gauge.html:148
+msgid "Precipitation (mm)"
+msgstr "Precipitação (mm)"
+
+#: webflood/templates/dashboard/river-gauge.html:149
+msgid "River Level (cm)"
+msgstr "Nível do rio (cm)"
+
+#: webflood/templates/dashboard/river-gauge.html:150
+msgid "Lower Error Margin (cm)"
+msgstr "Margem de erro inferior (cm)"
+
+#: webflood/templates/dashboard/river-gauge.html:151
+msgid "Upper Error Margin (cm)"
+msgstr "Margem de erro superior (cm)"
+
+#: webflood/templates/dashboard/river-gauge.html:152
+msgid "Rise/Fall Rate (cm/h)"
+msgstr "Taxa de subida/descida (cm/h)"
+
+#: webflood/templates/dashboard/river-gauge.html:153
+msgid "Flood Alert Category"
+msgstr "Categoria de alerta"
+
+#: webflood/templates/dashboard/river-gauge.html:164
+msgid "0 rows"
+msgstr "0 linhas"
+
+#: webflood/templates/dashboard/river-gauge.html:170
+msgid "Page"
+msgstr "Página"
+
+#: webflood/templates/dashboard/river-gauge.html:172
+#: webflood/templates/dashboard/river-gauge.html:215
+msgid "of"
+msgstr "de"
+
+#: webflood/templates/dashboard/river-gauge.html:192
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: webflood/templates/dashboard/river-gauge.html:207
+msgid "Now"
+msgstr "Agora"
+
+#: webflood/templates/dashboard/river-gauge.html:213
+msgid "Showing"
+msgstr "Exibindo"
+
+#: webflood/templates/dashboard/river-gauge.html:214
+msgid "to"
+msgstr "a"
+
+#: webflood/templates/dashboard/river-gauge.html:216
+msgid "entries"
+msgstr "entradas"

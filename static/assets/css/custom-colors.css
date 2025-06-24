@@ -1,0 +1,103 @@
+/* Custom color overrides for Bootstrap components */
+
+/* Primary color */
+:root {
+    --bs-primary: #0080FF;
+    --bs-primary-rgb: 36, 112, 220;
+}
+
+/* Secondary color */
+:root {
+    --bs-secondary: #eeeeee;
+}
+
+/* Success color */
+:root {
+    --bs-success: #2A9D8F;
+    --bs-success-rgb: 42, 157, 143;
+}
+
+/* Info color */
+:root {
+    --bs-info: #777777;
+    --bs-info-rgb: 138, 182, 249;
+}
+
+/* Side and navbar background */
+:root {
+    --bs-anybar: #2c2c2c;
+    --bs-anybar-rgb: 44, 44, 44;
+}
+
+/* Light and Dark backgrounds */
+:root {
+    --bs-light: #fff;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark: #1e1e1e;
+    --bs-dark-rgb: 30, 30, 30;
+}
+
+/* Override Bootstrap body background and text color */
+[data-bs-theme="dark"] {
+    --bs-body-bg: var(--bs-dark);
+    --bs-body-color: #ffffff;
+}
+
+/* Override Bootstrap background utility classes */
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+}
+
+.bg-success {
+    background-color: var(--bs-success) !important;
+}
+
+.bg-light {
+    background-color: var(--bs-light) !important;
+}
+
+.bg-dark {
+    background-color: var(--bs-dark) !important;
+}
+
+.bg-anybar {
+    background-color: var(--bs-anybar) !important;
+}
+
+/* Custom text colors for consistency */
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+    color: var(--bs-secondary) !important;
+}
+
+.text-success {
+    color: var(--bs-success) !important;
+}
+
+.text-info {
+    color: var(--bs-info) !important;
+}
+
+.text-light {
+    color: var(--bs-light) !important;
+}
+
+.text-dark {
+    color: var(--bs-dark) !important;
+}
+
+/* Custom icon colors*/
+.icon-white {
+    filter: invert(100%) brightness(200%);
+}
+
+.icon-primary {
+    filter: invert(36%) sepia(100%) saturate(500%) hue-rotate(180deg) brightness(100%) contrast(100%);
+}

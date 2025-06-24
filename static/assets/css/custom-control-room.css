@@ -1,0 +1,165 @@
+/* Default styles for all tiles */
+.tile {
+    width: 100%;
+    aspect-ratio: 2.2 / 1;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease-in-out;
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Individual heading styles for tiles */
+.tile h1 {
+    font-weight: 700;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.tile h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-left: 2%;
+    margin-bottom: 0.5%;
+}
+
+.tile h3 {
+    font-weight: 300;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.tile h4 {
+    font-weight: 400;
+    text-align: right;
+    padding-left: 10%;
+    padding-right: 2%;
+}
+
+
+/* Styles for warning tiles */
+.bg-purple {
+    background-color: #D50000;
+}
+
+.bg-red {
+    background-color: #FF3D00;
+}
+
+.bg-orange {
+    background-color: #FF9800;
+    color: #1E1E1E;
+}
+
+.bg-yellow {
+    background-color: #FFC107;
+    color: #1E1E1E;
+}
+
+.bg-none {
+    background-color: #80C1FF !important;
+    color: #1E1E1E;
+    box-shadow: none;
+}
+
+
+/* Style for placeholder tile */
+.bg-placeholder {
+    background-color: var(--bs-secondary-bg, var(--bs-secondary)) !important;
+    color: var(--bs-secondary-color, #969696);
+    box-shadow: none;
+    font-weight: 200 !important;
+}
+
+
+/* General heading styles */
+h5 {
+    padding-top: 11px;
+    font-size: 1.5em;
+    font-weight: 600 !important;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/* Custom styles for hr element */
+hr.custom-hr {
+    height: 1px;
+    color: #3C3C3C;
+}
+
+
+/* Hover effect */
+.tile:hover {
+    transform: scale(1.015);
+}
+
+
+/* Styles for table controls (bellow the control room */
+.table-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Pagination */
+.control-room .pagination .page-item.active .page-link {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: white;
+}
+
+.control-room .pagination .page-link:hover {
+    background-color: var(--bs-primary);
+    color: white;
+}
+
+/* Refresh timer style */
+#last-updated {
+    font-size: 1.25em;
+    vertical-align: middle;
+  }
+
+
+/* Full screen control */
+.control-room:fullscreen {
+    padding: 1rem;
+    background-color: var(--bs-body-bg) !important;
+    color: var(--bs-body-color);
+}
+
+/* Custom link styles */
+.custom-link {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+.custom-link:hover {
+    color: inherit; /* Inherit color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .control-room {
+        padding: 10px;
+    }
+
+    .tile {
+        min-width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .control-room .table {
+        font-size: 14px;
+    }
+}
